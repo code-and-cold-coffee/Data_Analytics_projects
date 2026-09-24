@@ -1,7 +1,4 @@
-This repository demonstrates how to merge and concatenate two datasets using Python’s Pandas library.
-It’s designed for beginners who want to practice handling tabular data.
-Merge → combines datasets horizontally (by keys).
+This repository demonstrates how to imply different functionalities of Python’s libraries.
+It’s designed for beginners who want to practice handling,cleaning,organising tabular data
+and perform fast operations on data using Pandas and Numpy
 
-Concat → stacks datasets vertically.
-
-.fillna(0) → replaces missing values with 0.
