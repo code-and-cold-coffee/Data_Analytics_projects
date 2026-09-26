@@ -43,6 +43,12 @@ eye methode in Array
 identity3=np.eye(3) # -> creating identity matrix of 3 by 3
 identity2=np.eye(2) # -> creating identity matrix of 2 by 2
 
+'''
+arange methode in NumPy:
+       np.arange(start,stop,step)
+'''
+print(np.arange(10)) # Print Numbers from 0 to 9 while 10 is the stoping index that is excluded
+
 # 3 dimensional array
 dim_3=np.array([[1,2],[3,4],[5,6]])
 print(dim_3) # 3 dimensional array
