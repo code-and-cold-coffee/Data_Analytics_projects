@@ -37,6 +37,12 @@ creating arrays of only 'Ones' in 1-D
 ones_methode=np.ones(3) # No of elements for ones in 1-D Array
 ones_methode=np.ones((3,2))# Creating r by c Table of ones in 1-D Array
 
+'''
+eye methode in Array
+'''
+identity3=np.eye(3) # -> creating identity matrix of 3 by 3
+identity2=np.eye(2) # -> creating identity matrix of 2 by 2
+
 # 3 dimensional array
 dim_3=np.array([[1,2],[3,4],[5,6]])
 print(dim_3) # 3 dimensional array
