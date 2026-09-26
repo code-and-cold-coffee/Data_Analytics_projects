@@ -24,6 +24,12 @@ print(my_list)
 dim_2=np.array([[1,2,3],
        [4,5,6]])
 print(dim_2) 
+'''
+creating arrays of only 'Zeroes'
+
+'''
+zeroes=np.zeros(3) # No of elements for  zeroes in 1-D Array
+zeroes=np.zeros((3,2)) # Creating r by c Table of zeroes in 1-D Array
 
 # 3 dimensional array
 dim_3=np.array([[1,2],[3,4],[5,6]])
