@@ -70,3 +70,12 @@ print(no_of_el.size) # -> returns number of elements in array -> 6
 dim1=np.array([1,2,3])
 print(dim1.size) # -> 3
 
+'''
+ndim() Methode in Array:
+Returns Dimension of an Array
+'''
+no_of_el=np.array([[[1,2],[3,4],[5,6]]])
+print(no_of_el.ndim) # -> returns Dimension of an array -> 3
+dim1=np.array([1,2,3])
+print(dim1.ndim) # ->  Dimenion 1
+
