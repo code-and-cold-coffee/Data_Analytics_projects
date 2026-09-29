@@ -62,3 +62,11 @@ print(arr.shape) # -> (5,)
 arr2=np.array([[1,2,3,4],[5,6,7,8]]) # -> 2-Dimensional Array
 print(arr2.shape) # -> (2,4) -> 2 rows and 4 columns
 
+'''
+Size of an Array:
+'''
+no_of_el=np.array([[1,2],[3,4],[5,6]])
+print(no_of_el.size) # -> returns number of elements in array -> 6
+dim1=np.array([1,2,3])
+print(dim1.size) # -> 3
+
