@@ -79,3 +79,12 @@ print(no_of_el.ndim) # -> returns Dimension of an array -> 3
 dim1=np.array([1,2,3])
 print(dim1.ndim) # ->  Dimenion 1
 
+'''
+Data type of an Array:
+array.dtype -> Returns data type of an Array
+'''
+type_of_arr=np.array([[[1,2],[3,4],[5,6]]])
+print(type_of_arr.dtype) # -> returns Data type of this array -> int64
+dim1=np.array([1.1,2.4,3.8])
+print(dim1.dtype) # ->  float64
+
