@@ -52,3 +52,13 @@ print(np.arange(10)) # Print Numbers from 0 to 9 while 10 is the stoping index t
 # 3 dimensional array
 dim_3=np.array([[1,2],[3,4],[5,6]])
 print(dim_3) # 3 dimensional array
+
+'''
+Properties of Array :
+'''
+# Shape attribute -> Returns no of Row and Column of an Array
+arr=np.array([1,2,3,4,5])
+print(arr.shape) # -> (5,)
+arr2=np.array([[1,2,3,4],[5,6,7,8]]) # -> 2-Dimensional Array
+print(arr2.shape) # -> (2,4) -> 2 rows and 4 columns
+
