@@ -88,3 +88,11 @@ print(type_of_arr.dtype) # -> returns Data type of this array -> int64
 dim1=np.array([1.1,2.4,3.8])
 print(dim1.dtype) # ->  float64
 
+'''
+Changing Data type of an Array:
+array.astype(type) -> convert data type of an array
+'''
+type_of_arr=np.array([[[1,2],[3,4],[5,6]]])
+print(type_of_arr.astype(float)) # -> Converted into float
+dim1=np.array([1.1,2.4,3.8])
+print(dim1.astype(int)) # ->  Converted into int
