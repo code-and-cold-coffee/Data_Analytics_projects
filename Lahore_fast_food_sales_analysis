@@ -1,1 +1,29 @@
+df=pd.read_csv("Lahore_fast_food_sales_analysis.csv")
+print(df)
+'''Total Revenue of the week'''
+Total_revenue=df.groupby('Day')['Revenue'].sum()
+print(Total_revenue.sum())
 
+'''which item made the most money'''
+most_sold=df.groupby('Item')['Revenue'].max().sort_values(ascending=True)
+print(most_sold) # -> pizza is most sold with revenue of total 86400
+
+'''Super_Hit Items -> if sales > 100 , then item is Super hit'''
+df["Super_Hit"]=np.where(df['Sales']>100,'Super_hit','Average')
+print(df)
+
+'''Avg rating per item'''
+avg_rating_per_item=df.groupby('Item')['Rating'].mean().sort_values().plot(kind="bar",color="purple")
+plt.title('Average Rating per Item')
+plt.show()
+print(avg_rating_per_item) # best avg_rating -> Burger
+                           #least avg rating -> Fries
+
+'''highest revenue on basis of days  '''
+day_revenue=df.groupby("Day")["Revenue"].sum()
+print(day_revenue)  # Day with highest avg revenue ->[Wed == 65425.0]
+
+'''Overall Summary'''
+print(df[['Sales','Price','Rating','Revenue']].describe())
+df.to_csv("Lahore_fast_food_sales_analysis.csv")
+print(df)
